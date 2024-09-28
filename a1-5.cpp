@@ -118,7 +118,7 @@ int main() { // The main function has been defined for you, do not edit anything
     cout << "Enter the number of disks: ";
     cin >> n;
     
-    if ((cin.fail()) or (n<0)) {
+    if ((cin.fail()) or (n<=0)) {
         cout << "Invalid Input ";
         return -1;
     }    
