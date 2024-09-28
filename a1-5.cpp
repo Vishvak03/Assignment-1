@@ -115,7 +115,7 @@ void rearrangeDisks(int n, Stack& A, Stack& B, Stack& C, char from, char to, cha
 
 int main() { // The main function has been defined for you, do not edit anything here.
     int n;
-    cout << "Enter the number of disks: ";
+    //cout << "Enter the number of disks: ";
     cin >> n;
     
     if ((cin.fail()) or (n<=0)) {
