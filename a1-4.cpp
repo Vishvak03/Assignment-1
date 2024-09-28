@@ -143,6 +143,11 @@ int main() {
      //   cout << arr1[i] << " ";
   //  }
     //cout << endl;
+
+    if (size1+size2==0) {
+        cout << "Empty Array";
+        return 0
+            }
     
     cout << "Median = " << findMedian(arr, size1, arr1, size2) << endl; // do not comment this out
     
